@@ -1,0 +1,80 @@
+
+
+
+#Order {
+	height:inherit;
+	background-color: rgba(0, 0, 0, 0.192);
+	color: black;
+	border-radius: 20px;
+	background-image: url('./images/h.jpeg');
+	background-size: cover;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+#Order h1 {
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin: 0 0 0 160px;
+	font-size:50px;
+}
+
+#Order h2 {
+	margin-left: 15px;
+
+}
+
+#Order .beverages-list {
+	width: 400px;
+	background-color:yellowgreen;
+	height: inherit;
+	border-radius: 20px;
+	box-shadow: 5px 5px 50px teal;
+}
+
+
+#Order img {
+	margin: 0;
+	width: 150px;
+	height: 150px;
+	margin-left: 220px;
+	border-radius: 100px;
+	border-style:outset;
+	border-width: 5px;
+	border-color:rgba(0, 255, 128, 0.479);
+}
+
+#Order .beverages-list p {
+	font-size: larger;
+	width: 350px;
+	height: 100px;
+	margin-left: 10px;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 10px;
+	font-style: oblique;
+}
+#Order .beverages-list .price {
+	margin: 0;
+	height: inherit;
+	margin-left: 10px;
+	font-style: normal;
+}
+
+#menu {
+	border-radius: 5px;
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#selector {
+	border-radius: 10px;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 80px;
+	width: 200px;
+}

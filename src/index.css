@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'Norse';
+	src: url('./Norse.woff') format('woff');
+}
+@font-face {
+	font-family: 'Norsebold';
+	src: url('./Norsebold.woff') format('woff');
+}
+
+body {
+	margin: 0;
+}
+h1 {
+	font-family: Norsebold;
+}
+h2 {
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#contents {
+
+	background-image: url('./images/h.jpeg');
+	background-size: cover;
+}
+
+.tablink {
+	font-family: cursive;
+	font-size: large;
+	font-style: oblique;
+	height: 50px;
+	width: 100px;
+	cursor: pointer;
+	background-color: rgba(153, 205, 50, 0.247);
+}
+
+.tablink:hover {
+	background-color: yellowgreen;
+}
+
+.btn_con{
+	display: flex;
+	justify-content: center;
+	height: inherit;
+	width: inherit;
+}
+
+@media screen and (min-height=800px){
+	body{
+		background-color: blue;
+		margin: 0;
+	};
+	#Home{
+		height: inherit;
+	}
+}
+

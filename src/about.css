@@ -1,0 +1,12 @@
+
+
+#Order {
+  background-color: rgba(0, 0, 0, 0.192);
+	color: black;
+	border-radius: 20px;
+	background-image: url('./images/h.jpeg');
+	background-size: cover;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+}

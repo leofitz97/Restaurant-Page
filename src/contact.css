@@ -1,0 +1,61 @@
+
+
+#Contact {
+	background-color: rgba(0, 0, 0, 0.192);
+	color: black;
+	border-radius: 20px;
+	background-image: url('./images/h.jpeg');
+	background-size: cover;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	gap: 10px	;
+}
+
+#Contact h1 {
+	margin-top: 20px;
+	margin: 0 0 0 100px;
+	font-size:50px;
+}
+
+#Contact h2 {
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
+#Contact .info {
+	border-radius: 10px;
+	font-size: larger;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 50px;
+	width: 400px;
+	text-align: center;
+}
+
+#Contact .contacts {
+	margin-left: 30px;
+	width: 430px;
+	background-color:yellowgreen;
+	height: inherit;
+	border-radius: 20px;
+	box-shadow: 5px 5px 50px teal;
+}
+#Contact .inner {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+
+}
+
+#Contact .inner img {
+	width: 150px;
+	height: 150px;
+	grid-column: 2/2;
+	grid-row: 1/-1;
+	border-radius: 100px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+#Contact .inner p{
+	margin-left: 20px;
+}
